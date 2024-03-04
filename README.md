@@ -1,7 +1,5 @@
 <!-- [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/G1iRwQk6) -->
 
-# This is the read me file for Assignment 4!
-
 **Below are the steps which I followed to make this webpage as described in the assignment:**
 
 1. Created the index.html file where all my HTML code for the web page will be written.  
