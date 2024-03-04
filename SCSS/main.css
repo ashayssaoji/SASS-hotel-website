@@ -1,0 +1,493 @@
+.ashay {
+  margin-top: 5px;
+}
+
+.one {
+  color: #ffffff;
+  margin-top: -150px;
+  position: fixed;
+  height: 10px;
+  top: 0cm;
+  width: 100%;
+}
+.one a:link {
+  text-decoration: none;
+  color: #000000;
+}
+.one a:hover {
+  background-color: #8cd3bb;
+}
+
+.logo {
+  margin-left: 400PX;
+  margin-top: 150px;
+}
+
+.as {
+  margin-right: -100px;
+  margin-left: 300px;
+}
+
+.bodyc {
+  background-color: #fafbfc;
+}
+
+/* text align tag is used to align the text to right and left side  */
+.class3 {
+  margin-top: 50px;
+  text-align: left;
+}
+
+.star {
+  margin-top: -20px;
+}
+
+hotelname {
+  margin-top: 100px;
+  margin-bottom: -50px;
+}
+
+/* color tag is used to set colours to the background and images */
+.starr {
+  margin-top: -50px;
+  text-align: right;
+}
+
+.loc {
+  text-align: left;
+  margin-left: -65px;
+  margin-top: -100px;
+  margin-bottom: 5px;
+}
+
+.locw {
+  margin-left: 15PX;
+  margin-top: -48px;
+}
+
+.book {
+  text-align: right;
+  margin-top: -21px;
+}
+
+.four {
+  margin-top: 6px;
+  margin-bottom: 0px;
+}
+
+.two {
+  border-radius: 2px;
+  border-color: #8cd3bb;
+}
+
+/* padding is used to add surrounding space to the element */
+.now {
+  border: none;
+  background-color: #8cd3bb;
+  padding: 10px 25px;
+  margin-top: -20px;
+  margin-bottom: -5px;
+}
+
+.heart {
+  border-radius: 2px;
+  border-color: #8cd3bb;
+}
+
+.share {
+  border-radius: 2px;
+  border-color: #8cd3bb;
+}
+
+.tur, .starr {
+  color: #ff8580;
+}
+
+.ista {
+  color: #ff8580;
+}
+
+.img1 {
+  margin-top: -280px;
+  text-align: right;
+}
+
+.but {
+  background-color: #8cd3bb;
+  border-color: #8cd3bb;
+  line-height: 100%;
+  border: none;
+  height: 120px;
+  width: 120px;
+}
+
+.lorem {
+  text-align: justify;
+}
+
+.b1 {
+  border: none;
+  background-color: #8cd3bb;
+  margin-top: -100px;
+  margin-left: 1150px;
+}
+
+.fourstar button {
+  flex: 1 200px;
+  flex-wrap: wrap;
+  padding: 10px;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+  width: 120px;
+}
+
+.b2 {
+  border: none;
+  background-color: #8cd3bb;
+  text-align: right;
+  margin-left: 1150px;
+}
+
+/* the border none tag is used to omit the border around a button */
+.b3 {
+  border: none;
+  background-color: #8cd3bb;
+  text-align: right;
+  margin-left: 1150px;
+}
+
+.b4 {
+  border: none;
+  background-color: #8cd3bb;
+  text-align: right;
+  position: relative;
+  margin-left: 1150px;
+  margin-top: -20px;
+  margin-bottom: 20px;
+}
+
+.r1 {
+  margin-left: 1050px;
+  text-align: right;
+}
+
+.r2 {
+  margin-left: 1050px;
+}
+
+.r3 {
+  margin-left: 1050px;
+}
+
+.r4 {
+  margin-left: 1050px;
+}
+
+.google {
+  border: none;
+  background-color: #8cd3bb;
+  margin-left: 1100px;
+}
+
+.bloc {
+  margin-top: 250px;
+}
+
+.map {
+  margin-top: 0px;
+}
+
+.post {
+  text-align: right;
+  margin-left: 750px;
+  z-index: 4;
+  margin-bottom: 81px;
+  position: relative;
+}
+
+.email {
+  color: rgb(2, 41, 16);
+}
+
+/* word-spacing tag is used to set the spaces between words in a line */
+.h1 {
+  margin-top: -5px;
+  word-spacing: 30px;
+  background-color: #719c87;
+}
+
+.our, .fitness, .outdoor, .try2 .fr1 .france .multi, .cruise, .sri, .work2, .work1, .bali, .span9, .span7, .span10, .span5, .masterspan, .contact, .about, .travel {
+  word-spacing: -2px;
+}
+
+.line2 {
+  word-spacing: 70px;
+}
+
+.can {
+  word-spacing: 65px;
+}
+
+.north {
+  word-spacing: 60px;
+}
+
+.cannorth {
+  word-spacing: 40px;
+}
+
+.alaska {
+  word-spacing: 60px;
+}
+
+.work1 {
+  margin-left: 20px;
+}
+
+.sri {
+  margin-left: -20px;
+}
+
+.alaska {
+  margin-left: 150px;
+}
+
+.peru {
+  word-spacing: -2px;
+  margin-left: 40px;
+}
+
+.try1 .ice {
+  word-spacing: 80px;
+  margin-left: 150px;
+}
+.try1 .ice .travel {
+  word-spacing: -2px;
+}
+
+.try2 .fr1 {
+  word-spacing: 40px;
+}
+.try2 .fr1 .france {
+  margin-left: 150px;
+}
+.try2 .fr1 .france .multi {
+  margin-left: 70px;
+  margin-right: -10px;
+}
+
+.act {
+  margin-left: -15px;
+}
+
+.gum2 {
+  margin-left: 15PX;
+  margin-top: -43px;
+}
+
+.loc222 {
+  text-align: left;
+  margin-left: -65px;
+}
+
+.am1 {
+  word-spacing: 80px;
+}
+
+.outdoor {
+  margin-left: -80px;
+}
+
+.fitness {
+  margin-left: -80px;
+}
+
+.bar {
+  margin-left: 120px;
+}
+
+.flower {
+  margin-top: 100px;
+}
+
+.dumbell {
+  margin-left: 30px;
+}
+
+.wifi {
+  margin-left: 37px;
+}
+
+.tea {
+  margin-left: 124px;
+}
+
+.more {
+  margin-left: 107px;
+  color: #ff0000;
+}
+
+.rest {
+  margin-left: 4px;
+}
+
+.wifi2 {
+  margin-left: 0px;
+}
+
+/* text align tag is used to align the t */
+.review {
+  text-align: right;
+  background-color: #8cd3bb;
+  margin-left: 1050px;
+}
+
+.verified {
+  line-height: 80%;
+}
+
+.chev {
+  margin-left: 550px;
+}
+
+.r1 {
+  margin-top: 20px;
+}
+
+.im1 {
+  border-color: #8cd3bb;
+}
+
+.im2 {
+  border-color: #8cd3bb;
+}
+
+.im3 {
+  border-color: #8cd3bb;
+}
+
+.im4 {
+  border-color: #8cd3bb;
+}
+
+.twenty {
+  color: #ff0000;
+}
+
+.find {
+  margin-top: -100px;
+}
+
+.ashay {
+  margin-top: 30px;
+}
+
+.foot2 {
+  margin-top: 15px;
+  background-color: #719c87;
+}
+
+/* border radius tag is used to set the border of the buttons */
+.last {
+  margin-top: -290px;
+  border-radius: 15px;
+  background-color: rgb(205, 234, 225);
+  margin-bottom: 40px;
+  width: 1000px;
+  margin-left: 110px;
+  z-index: 3;
+  position: relative;
+}
+
+.foot {
+  background-color: #719c87;
+  height: 350px;
+  z-index: 2;
+  position: relative;
+  margin-top: 100px;
+}
+
+.hotal {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  gap: 10px;
+}
+
+.hotal3 {
+  flex: 2 200px;
+  margin-top: 2px;
+}
+
+.hotal1 {
+  flex: 1 200px;
+}
+
+.hotal2 {
+  flex: 1 200px;
+}
+
+.p1 {
+  margin-left: 20px;
+}
+
+.kshiti2 {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #8cd3bb;
+  border-radius: 5px;
+  min-width: 500px;
+  height: 100px;
+  gap: 10px;
+}
+.kshiti2 .kshiti3 {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #8cd3bb;
+  border-radius: 5px;
+  min-width: 35px;
+  min-height: 35px;
+  gap: 10px;
+}
+.kshiti2 .kshiti4 {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #8cd3bb;
+  border-radius: 5px;
+  min-width: 35px;
+  min-height: 35px;
+  gap: 10px;
+}
+.kshiti2 .kshiti5 {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #8cd3bb;
+  border-radius: 5px;
+  min-width: 35px;
+  min-height: 35px;
+  gap: 10px;
+}
+.kshiti2 .kshiti6 {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #8cd3bb;
+  border-radius: 5px;
+  min-width: 35px;
+  min-height: 35px;
+  gap: 10px;
+}
+.kshiti2 .kshiti7 {
+  background-color: #8cd3bb;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #8cd3bb;
+  border-radius: 5px;
+  min-width: 35px;
+  min-height: 35px;
+}
+
+.ashay {
+  margin-top: 5px;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,653 @@
+
+// I have imported the variables and mixins files in here to facillitate using its functionalitis
+
+@import 'variables';
+@import 'mixins';
+
+// I have used SCSS feature of looping like this at multiple places to help in easy understanding of code.
+
+// I have used CSS tag of height, margin-top and position to set the navigation bar.
+
+// I have used nested-selectors peroperty of SCSS to help in easy understanding of code
+
+.one
+{
+    background-color:$Nav;
+    margin-top: -150px;
+    position: fixed;
+    height: 10px;
+    top: 0cm; 
+     opacity: 1;
+    //  text decoration is used to remove any kind of lines under the links
+    width:100%;
+
+    // hover elemnt of pseudo class is used to show colour on the links when you hover
+    a:link{
+        text-decoration: none;
+        color: #000000;
+    }
+    a:hover{
+        background-color: #8cd3bb;
+    }
+}
+
+
+.logo{
+    margin-left: 400PX;
+    margin-top: 150px;
+}
+
+.as{
+
+    margin-right: -100px;
+    margin-left: 300px;
+    
+}
+
+// I have used $bg tag to set colour for the background
+.bodyc
+{
+    background-color: $bg;
+}
+
+
+/* text align tag is used to align the text to right and left side  */
+.class3{
+    margin-top: 50px;
+    text-align: left;
+}
+
+
+.star{
+    margin-top:-20px;
+}
+
+hotelname{
+
+    margin-top: 100px;
+    margin-bottom: -50px;
+}
+
+/* color tag is used to set colours to the background and images */
+.starr
+{
+    margin-top: -50px;
+    // margin-bottom: 20px;
+    text-align: right;
+    @extend .tur;
+}
+
+.loc{
+    text-align: left;
+    margin-left: -65px;
+    margin-top: -100px;
+    margin-bottom:5px ;
+
+    
+}
+
+.locw
+{
+    margin-left: 15PX;
+
+    margin-top: -48px
+}
+.book{
+    text-align: right;
+    margin-top: -21px;
+}
+.four{
+    margin-top: 6px;
+    margin-bottom: 0px;
+}
+
+.two{
+    border-radius: 2px;
+    border-color: $green-light;
+}
+
+/* padding is used to add surrounding space to the element */
+.now
+{
+    border:none;
+    background-color: $green-light;
+    padding: 10px 25px;
+    margin-top: -20px;
+    margin-bottom: -5px;
+}
+
+.heart{
+    border-radius: 2px;
+    border-color: $green-light;
+    
+    
+}
+.share{
+    border-radius: 2px;
+    border-color: $green-light;
+    
+}
+//  I have used the SCSS functionality of mixins in here. In the mixins file I have set the desired colour in the mixing and then used the keywprd @include to used the mixin functionality
+.tur{
+       @include butts;
+}
+.ista{
+    @include butts;
+}
+.img1{
+    margin-top: -280px;
+    text-align: right;
+}
+.but{
+    background-color: $green-light;    
+    border-color:$green-light;
+    line-height: 100%;
+    border:none;
+    height: 120px;
+    width: 120px;
+}
+// I have used lorem and justify tags to set the paragrpah and alignment as justified
+.lorem{
+    text-align: justify;
+}
+
+.b1{
+    border:none;
+    background-color: $green-light;
+    margin-top: -100px;
+    margin-left: 1150px;
+}
+
+.fourstar{
+
+    button{
+       
+       flex: 1 200px;
+        flex-wrap: wrap;
+        padding: 10px;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+        height: 120px;
+        width: 120px;
+        
+    }
+}
+
+.b2{
+    border: none;
+    background-color: $green-light;
+    text-align: right;
+    margin-left: 1150px;
+}
+
+/* the border none tag is used to omit the border around a button */
+.b3{
+    border: none;
+    background-color:$green-light;
+    text-align: right;
+    margin-left: 1150px;
+}
+.b4{
+    border: none;
+    background-color: $green-light;
+    text-align: right;
+    position: relative;
+    margin-left: 1150px;
+    margin-top:-20px;
+    margin-bottom: 20px;
+}
+
+
+.r1{
+    margin-left: 1050px;
+    text-align: right;   
+}
+   
+.r2{
+    margin-left: 1050px;
+}
+.r3{
+    margin-left: 1050px;
+}
+.r4{
+    margin-left: 1050px;
+}
+
+.google{
+    border:none;
+    background-color: $green-light;
+    margin-left: 1100px;
+}
+
+.bloc{
+    margin-top: 250px;
+
+}
+.map{
+    margin-top: 0px;
+}
+
+.post{
+    text-align: right;
+    margin-left: 750px;
+    z-index: 4;
+    margin-bottom: 81px;
+    position: relative;
+}
+
+.email{
+    color: rgb(2, 41, 16);
+}
+/* word-spacing tag is used to set the spaces between words in a line */
+.h1{
+    margin-top: -5px;
+    word-spacing: 30px;
+    background-color: $green-dark;
+}
+// I have set the parent spacing as -2px and the extended the functionality later on 
+.our{
+    word-spacing: -2px;
+}
+
+.travel{
+   @extend .our;
+}
+
+.about{
+    @extend .our;
+}
+.contact{
+    @extend .our;
+}
+.line2{
+    word-spacing: 70px;
+}
+.masterspan{
+    // I have used the CSS and SCSS functionality of inheritance to extend the functionality of the parent in the child by using the keyword @extend
+    @extend .our;
+}
+
+
+.span5{
+    @extend .our;
+
+}
+.span10{
+    @extend .our;
+}
+
+.span7{
+    @extend .our;
+}
+.span9{
+    @extend .our;
+}
+.bali{
+    @extend .our;
+}
+.can{
+    word-spacing: 65px;
+}
+.north{
+    word-spacing: 60px;
+}
+.cannorth{
+    word-spacing: 40px;
+}
+
+.alaska{
+    word-spacing:60px ;
+}
+// I have used the CSS and SCSS functionality of inheritance to extend the functionality of the parent class in the child class by using the keyword @extend
+.work1{
+    @extend .our;
+    margin-left: 20px;
+}
+.work2{
+    @extend .our;
+}
+.sri{
+    @extend .our;
+    margin-left: -20px;
+}
+.cruise{
+    @extend .our;
+}
+.alaska{
+    margin-left: 150px;
+}
+
+.peru{
+    word-spacing: -2px;
+    margin-left: 40px;
+}
+
+// This is looping
+.try1{
+
+    .ice{
+        word-spacing: 80px;
+        margin-left: 150px;
+         .travel
+                {
+                   word-spacing: -2px;
+                }
+        }
+     }
+
+
+ .try2{
+
+    .fr1{
+        word-spacing: 40px;
+
+        .france{
+            margin-left: 150px;
+
+            .multi{
+                @extend .our;
+                margin-left: 70px;
+                margin-right: -10px;
+
+                  }
+
+               }
+       }
+
+
+ }    
+
+
+.act{
+    margin-left: -15px;
+}
+
+.gum2{
+    margin-left: 15PX;
+
+    margin-top: -43px
+}
+.loc222{
+    text-align: left;
+    margin-left: -65px;
+}
+
+// word spacing is used at places to set the word spacing according to the need
+.am1{
+    word-spacing: 80px;
+}
+
+// I have used the CSS and SCSS functionality of inheritance to extend the functionality of the parent class in the child class by using the keyword @extend
+.outdoor{
+    @extend .our;
+    margin-left: -80px;
+}
+
+.fitness{
+    @extend .our;
+    margin-left: -80px;
+
+}
+.bar
+{
+    margin-left: 120px;
+}
+.flower{
+    margin-top: 100px;
+}
+
+.dumbell{
+    margin-left: 30px;
+}
+
+.wifi{
+    margin-left:37px;
+}
+
+.tea{
+    margin-left: 124px;
+}
+.more{
+    margin-left: 107px;
+    color: #ff0000;
+}
+
+.rest{
+    margin-left:4px;
+}
+.wifi2{
+    margin-left:0px
+}
+
+/* text align tag is used to align the t */
+ .review{
+     text-align: right;
+     background-color: $green-light;
+     margin-left: 1050px;
+    }
+
+    .verified{
+
+        line-height: 80%;
+    }
+    // .one{
+    //     margin-top: -150px;
+    //     position: fixed;
+    //     height: 10px;
+    //     top: 0cm;
+    //     background-color: $Nav;
+    //     opacity: 1;
+       
+    // }
+    
+    .chev{
+    
+        margin-left: 550px;
+    }
+    
+    .r1{
+        margin-top: 20px;
+    }
+    
+    // I have set the needed colour in the SCSS variable of $green-light and have used the variable to set colour at multiple places 
+    .im1{
+        border-color: $green-light;
+    }
+    
+    .im2{
+        border-color: $green-light;
+    }
+    .im3{
+        border-color: $green-light;
+    }
+    .im4{
+        border-color: $green-light;
+    }
+    .twenty{
+        color: #ff0000;
+    }
+    .find{
+        margin-top: -100px;
+    }
+    
+    .ashay{
+        margin-top: 30px;
+    }
+    
+    .foot2{
+        margin-top: 15px;
+        background-color: $green-dark;
+    }
+    
+    
+    /* border radius tag is used to set the border of the buttons */
+    // In the border radius tag I have used 'if else' which is a SCSS functionality to set the radius for the upper box
+    .last{
+        margin-top: -290px;
+        // border-radius: 15px;
+        @if $rad>20px{
+            border-radius: 5px;
+        }
+        @else{
+            border-radius: $rad;
+        }
+        background-color: rgba(205,234,225,255);
+        margin-bottom: 40px;
+        width: 1000px;
+        margin-left: 110px;
+        z-index: 3;
+        position: relative;
+    }
+    // In the footer tag I have used z index and position tags and also SCSS variable $green-dark for designing footer according to the page
+    .foot{
+        background-color:$green-dark;
+        height:350px;
+        z-index: 2;
+        position: relative;
+        margin-top: 100px;
+    }
+    
+
+    
+// flex wrap and padding tags have been used to set the images to fit in the peroper remaining space
+// In the first image I have set the flex at 2, and in the other four images I have kept 2 different classes and have set the flex value as 1, this helped all the images to occupy proper given space.(All the hotal tags)   
+.hotal{
+
+    display: flex;
+    flex-wrap: wrap;
+        padding: 10px;
+        gap: 10px;
+}
+.hotal3
+{
+ flex: 2 200px;
+ margin-top:2px;
+}
+.hotal1{
+    flex: 1 200px;
+}
+
+.hotal2{
+    flex: 1 200px;
+}
+
+
+.p1{
+    margin-left: 20px;
+}
+
+// .maindiv{
+
+//     display:flex;
+//     flex-direction: row;
+//     flex-wrap: wrap;
+//     border: 1px solid rgb(35, 40, 133);
+//     padding: 10px;
+//     gap: 10px;
+//     width: 800px;
+//     height: 500px;
+    // align-items: center;
+    // justify-content: center;
+// }
+// .kshiti1{
+//     display: flex;
+//     flex-direction: row;
+//     border: 1px solid rgb(164, 87, 87);
+//     border-radius: 5px;
+//     width: 100px;
+//     height: 100px;
+//     text-align: center;
+// }
+.kshiti2{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #8cd3bb;
+    border-radius: 5px;
+    min-width: 500px;
+    height: 100px;
+    gap: 10px;
+    // text-align: center;
+
+
+
+.kshiti3{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #8cd3bb;
+    border-radius: 5px;
+    min-width: 35px;
+    min-height: 35px;
+    gap: 10px;
+    // text-align: center;
+}
+.kshiti4{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #8cd3bb;
+    border-radius: 5px;
+    min-width: 35px;
+    min-height: 35px;
+    gap: 10px;
+    // text-align: center;
+}
+.kshiti5{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #8cd3bb;
+    border-radius: 5px;
+    min-width: 35px;
+    min-height: 35px;
+    gap: 10px;
+    // text-align: center;
+}
+.kshiti6{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #8cd3bb;
+    border-radius: 5px;
+    min-width: 35px;
+    min-height: 35px;
+    gap: 10px;
+    // text-align: center;
+}
+
+.kshiti7{
+    background-color: $green-light;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #8cd3bb;
+    border-radius: 5px;
+    min-width: 35px;
+    min-height: 35px;
+    
+    // text-align: center;
+}
+}
+
+
+
+
+
+
+// .main3{
+//     border: 1px solid rgb(164, 87, 87);
+//     border-radius: 5px;
+//     min-width: 100px;
+//     min-height: 100px;
+//     text-align: center;
+// }
+// .main4{
+//     border: 1px solid rgb(164, 87, 87);
+//     border-radius: 5px;
+//     min-width: 100px;
+//     min-height: 100px;
+//     text-align: center;
+// }
+// .main5{
+//     border: 1px solid rgb(164, 87, 87);
+//     border-radius: 5px;
+//     min-width: 100px;
+//     min-height: 100px;
+//     text-align: center;
+// }
